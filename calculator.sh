@@ -11,6 +11,8 @@ case $operator in
     ;;
     # stores the value in result varibale 
     # be mindful of the synatx. you can't do:  result==$number1 - $number2, the () are important
+
+
   -)
     result=$((number1 - number2))
     ;;
